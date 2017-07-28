@@ -1,0 +1,228 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+# url: "https://panossakkos.github.io"
+url: "https://yikuta.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+# baseurl: /personal-jekyll-theme
+baseurl: /testPages
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+# lang: "en"
+# author: "John Smith"
+# title: "{ John Smith }"
+# description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
+# keywords: "smith, jones, personal, jekyll, theme"
+# favicon: "/img/favicon.ico"
+lang: "zh"
+author: "Mzwgkz"
+title: "{ Mzwgkz }"
+description: "这是一个测试页面。"
+keywords: "个人站点, blog, Geek"
+favicon: "/img/favicon.ico" # 网站左上图标
+
+################
+# Header layout #
+################
+
+# black-favicon: "/img/black-lab-glass.ico" # 标题左边图标
+
+background-img: "../img/intro-bg.jpg" # banner图
+
+##############################
+# Dynamic Text on the Header #  标题上的动态文本
+##############################
+
+dynamic-typing: True
+shuffle: True # Shuffle the lines.
+loop: True
+loop-count: False # Set False for infinite loop, or set any number for finite loop.
+type-speed: 10
+start-delay: 200
+delete-delay: 5000
+lines: # You can add HTML Tags in the Text
+  - text: "我还是一名前端菜鸟，正在慢慢的磨砺自己。"
+  - text: "Where’s your will to be weird?"
+
+me-img: "/img/jetpacktocat.png" # banner图上的logo
+
+# To use facebook profile pic comment the previous line and uncomment the following
+# line, and replace 'user_id' with your facebook user id.
+# Facebook user id can be found by clicking on your profile pic and the large number
+# in the end of the url just before '&type' is your user id.
+# Note: fbid is not the same as user id and user id only contains numbers
+
+# me-img: "https://graph.facebook.com/user_id/picture?type=large&width=500&height=500"
+
+# To use github profile pic uncomment the following line and replace 'user_name'
+# with your github user name.
+
+# me-img: "https://github.com/user_name.png?size=500"
+
+# To use gravatar profile pic uncomment the following line and replace 'email_hash'
+# with your gravatar profile email hash.
+# You can create the email hash by using an online tool like 'http://www.md5hashgenerator.com/'
+# just enter your email and it will generate the hash.
+
+# me-img: "https://www.gravatar.com/avatar/email_hash?s=500"
+
+##############################
+# Color the browser elements #
+##############################
+# color-browser: "#000000"
+# apple-status-bar-style: "black"
+color-browser: "#fff"
+apple-status-bar-style: "white"
+
+################
+# Web app mode #
+################
+
+web-app-mode: False
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 96
+
+paginate: 5
+
+email-share: False
+fb-share: False
+twitter-share: False
+linkedin-share: False
+reddit-share: False
+google-plus-share: False
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: "mzwgkz"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+# 时间轴各项事件
+events:
+  - image: "/img/timeline/spidertocat.png"
+    date: "2016/06 - 2017/06"
+    description: "实习结束，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动OA的webapp开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
+  - image: "/img/timeline/baracktocat.jpg"
+    date: "2015/06 - 2016/06"
+    description: "在成都某家公司进行web前端实习，从此开始了我的前端之路。"
+
+# First image of the Timeline
+
+timeline-img: "/img/timeline/default.png"
+
+###########
+# Contact #
+###########
+
+email: "1198976508@qq.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+# author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+author_blurb: "李文强是一个很不错的人，住在成都。喜欢钻研与尝试新技术，深深喜欢着前端行业。在业余时间喜欢看视频以及吃美食。"
+author_blurb_image: "/img/author.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "github"
+    url: "https://github.com/yikuta"
+  - title: "weibo"
+    url: "http://www.weibo.com/2684579353/profile"
+  - title: "qq"
+    url: "https://user.qzone.qq.com/1198976508/infocenter"
+  - title: "weixin"
+    url: "https://wx.qq.com"
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: mzwgkz
+keybase-in-social: False
+keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  关于: 'about'
+  博客和笔记: 'latest-post'
+  时间轴: 'timeline'
+  联系: 'contact'
+
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji
