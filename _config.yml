@@ -14,7 +14,7 @@ url: "https://yikuta.github.io"
 # NB! Without this *nothing* will work, because it's used in every path :)
 
 # baseurl: /personal-jekyll-theme
-baseurl: /testPages
+# baseurl: 
 
 # Google tracking id
 
@@ -37,10 +37,10 @@ force-https: True
 # keywords: "smith, jones, personal, jekyll, theme"
 # favicon: "/img/favicon.ico"
 lang: "zh"
-author: "Mzwgkz"
-title: "{ Mzwgkz }"
-description: "这是一个测试页面。"
-keywords: "个人站点, blog, Geek"
+author: "yikuta"
+title: "{ yikuta }"
+description: "李文强的个人github站点，以及个人笔记"
+keywords: "李文强, github pages, blog, Geek"
 favicon: "/img/favicon.ico" # 网站左上图标
 
 ################
@@ -63,8 +63,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "我还是一名前端菜鸟，正在慢慢的磨砺自己。"
-  - text: "Where’s your will to be weird?"
+  - text: "“努力”是这个世界上最虚伪的东西之一，是成功者的借口，是失败者的安慰。"
+  - text: "然而不幸的是，努力却又是必须的，是即使明知可能会血本无归也不得不付出的投资。"
 
 me-img: "/img/jetpacktocat.png" # banner图上的logo
 
@@ -132,7 +132,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "mzwgkz"
+disqus-shortname: "yikuta"
 
 syntax-highlight: True
 
@@ -194,7 +194,7 @@ err-404-img: "/img/labtocat.png"
 # GPG on Keybase #
 ##################
 
-keybase-username: mzwgkz
+keybase-username: yikuta
 keybase-in-social: False
 keybase-in-footer: False
 
