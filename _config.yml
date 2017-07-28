@@ -63,8 +63,8 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "“努力”是这个世界上最虚伪的东西之一，是成功者的借口，是失败者的安慰。"
   - text: "然而不幸的是，努力却又是必须的，是即使明知可能会血本无归也不得不付出的投资。"
+  - text: "“努力”是这个世界上最虚伪的东西之一，是成功者的借口，是失败者的安慰。"
 
 me-img: "/img/jetpacktocat.png" # banner图上的logo
 
