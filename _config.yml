@@ -66,7 +66,7 @@ lines: # You can add HTML Tags in the Text
   - text: "然而，努力却又是必须的，是即使明知可能会血本无归也不得不付出的投资。"
   - text: "“努力”是这个世界上最虚伪的东西之一，是成功者的借口，是失败者的安慰。"
 
-me-img: "/img/jetpacktocat_1.png" # banner图上的logo
+me-img: "/img/jetpacktocat_1.jpg" # banner图上的logo
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -141,7 +141,7 @@ syntax-highlight: True
 ############
 # 时间轴各项事件
 events:
-  - image: "/img/timeline/2nd.png"
+  - image: "/img/timeline/2nd.jpg"
     date: "2016/06 - 2017/06"
     description: "实习结束，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动OA的webapp开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
   - image: "/img/timeline/first.jpg"
@@ -150,7 +150,7 @@ events:
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default_1.png"
+timeline-img: "/img/timeline/default_1.jpg"
 
 ###########
 # Contact #
