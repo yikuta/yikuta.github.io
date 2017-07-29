@@ -49,7 +49,7 @@ favicon: "/img/favicon.ico" # 网站左上图标
 
 # black-favicon: "/img/black-lab-glass.ico" # 标题左边图标
 
-background-img: "../img/intro-bg.jpg" # banner图
+background-img: "../img/bg-banner.jpg" # banner图
 
 ##############################
 # Dynamic Text on the Header #  标题上的动态文本
@@ -63,10 +63,10 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "然而不幸的是，努力却又是必须的，是即使明知可能会血本无归也不得不付出的投资。"
+  - text: "然而，努力却又是必须的，是即使明知可能会血本无归也不得不付出的投资。"
   - text: "“努力”是这个世界上最虚伪的东西之一，是成功者的借口，是失败者的安慰。"
 
-me-img: "/img/jetpacktocat.png" # banner图上的logo
+me-img: "/img/jetpacktocat_1.png" # banner图上的logo
 
 # To use facebook profile pic comment the previous line and uncomment the following
 # line, and replace 'user_id' with your facebook user id.
@@ -141,16 +141,16 @@ syntax-highlight: True
 ############
 # 时间轴各项事件
 events:
-  - image: "/img/timeline/spidertocat.png"
+  - image: "/img/timeline/2nd.png"
     date: "2016/06 - 2017/06"
     description: "实习结束，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动OA的webapp开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
-  - image: "/img/timeline/baracktocat.jpg"
+  - image: "/img/timeline/first.jpg"
     date: "2015/06 - 2016/06"
     description: "在成都某家公司进行web前端实习，从此开始了我的前端之路。"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/default_1.png"
 
 ###########
 # Contact #
@@ -168,7 +168,7 @@ email: "1198976508@qq.com"
 # if the author_blurb is not set, then this feature is skipped
 # author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
 author_blurb: "李文强是一个很不错的人，住在成都。喜欢钻研与尝试新技术，深深喜欢着前端行业。在业余时间喜欢看视频以及吃美食。"
-author_blurb_image: "/img/author.png"
+author_blurb_image: "/img/author_1.png"
 
 ##################
 # Social Buttons #
@@ -188,7 +188,7 @@ social:
 # 404 page #
 ############
 
-err-404-img: "/img/labtocat.png"
+err-404-img: "/img/labtocat_1.png"
 
 ##################
 # GPG on Keybase #
