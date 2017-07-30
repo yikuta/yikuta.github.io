@@ -117,7 +117,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 96
+post-preview-words: 48    #96  #将一串字符串截断为x个单词
 
 paginate: 5
 
@@ -143,7 +143,7 @@ syntax-highlight: True
 events:
   - image: "/img/timeline/2nd.jpg"
     date: "2016/06 - 2017/06"
-    description: "实习结束，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动OA的webapp开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
+    description: "实习结束后，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动协同办公的webapp的OA模块开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
   - image: "/img/timeline/first.jpg"
     date: "2015/06 - 2016/06"
     description: "在成都某家公司进行web前端实习，从此开始了我的前端之路。"
