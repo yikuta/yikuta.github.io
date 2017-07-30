@@ -117,7 +117,7 @@ icon-192p: "/img/web-app/icon-192p.png"
 
 enable-gesture-navigation: True
 
-post-preview-words: 48    #96  #将一串字符串截断为x个单词
+post-preview-words: 60    #96  #将一串字符串截断为x个单词
 
 paginate: 5
 
