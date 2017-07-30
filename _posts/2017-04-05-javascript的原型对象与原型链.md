@@ -12,7 +12,7 @@ category: js
 
 ##  前言
 
-javascript作为一个弱语言，没有像其他面向对象语言中的类的继承模式，而是使用的prototype模式。虽然ES6中，把class关键字加到了其中，但是这个class只是一个语法糖，仅仅是建立在旧的原型系统上的。
+<span>&nbsp;&nbsp;</span>javascript作为一个弱语言，没有像其他面向对象语言中的类的继承模式，而是使用的prototype模式。虽然ES6中，把class关键字加到了其中，但是这个class只是一个语法糖，仅仅是建立在旧的原型系统上的。
 
 ##  经常会这么写
 <pre><code>
