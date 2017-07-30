@@ -167,7 +167,7 @@ email: "1198976508@qq.com"
 
 # if the author_blurb is not set, then this feature is skipped
 # author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
-author_blurb: "李文强是一个很不错的人，住在成都。喜欢钻研与尝试新技术，深深喜欢着前端行业。在业余时间喜欢看视频以及吃美食。"
+author_blurb: "李文强，成都人，一个喜欢钻研与尝试新技术，深深喜欢着前端行业的人。在业余时间喜欢看视频以及吃好吃的。"
 author_blurb_image: "/img/author_1.png"
 
 ##################
