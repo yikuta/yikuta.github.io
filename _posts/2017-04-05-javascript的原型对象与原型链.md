@@ -26,7 +26,9 @@ javascript作为一个弱语言，没有像其他面向对象语言中的类的�
   person.say(); //Hello,John
 </code></pre>
 上面代码很简单，给Person原型对象定义了一个公共的say方法，虽然是在实例化person之后，但是因为原型方法在调用之前已经声明，因此实例化出来的每个对象都有该方法。所以：
+
 <br>
+
 <strong>原型对象的用途是为了每个实例化对象存储共享方法和属性，它仅是一个普通对象而已。并且所有的实例化对象是共享一个原型对象的，因此有别于实例化方法和属性，原型对象仅有一份。</strong>
 <pre><code>
   person.say == new Person().say
@@ -47,9 +49,13 @@ javascript作为一个弱语言，没有像其他面向对象语言中的类的�
 </code></pre>
 很不幸，person.say方法没有找到，报错了。其实这样写的出发点是好的：因为如果想要在原型对象上添加更多的方法和属性，我不得不每次都写一行Person.prototype，还不如直接写成一个object。但是这个例子恰好在构造实例化对象操作是在添加原型方法之前，这样就会造成问题：
 当<strong>var person = new Person()</strong>时，Person.prototype为<strong>Person()</strong>（当然，内部还有constructor属性），即Person.prototype指向一个空对象{}。而对于实例person而言，其内部有一个原型链指针__proto__，该指针指向了Person.prototype指向的对象，即{}。接下来重置了Person的原型对象，使其指向了另一个对象，即<strong>Object {say function}</strong>，这时person.__proto__的指向还没有发生改变，它指向的{}对象里没有say方法，所有报错。
+
 <br>
+
 所以：<strong>在js中，对象调用一个方法时，会首先在该对象自身里寻找是否有该方法，若没有，则去原型链上去寻找，依次层层递进，这里说的原型链就是实例对象__proto__属性</strong>。
+
 <br>
+
 若想上诉例子成功运行，最简单有效的方法就是交换构造对象和重置对象原型对象的顺序，即
 <pre><code>
   function Person () {
