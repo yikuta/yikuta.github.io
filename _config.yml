@@ -132,7 +132,7 @@ pinterest-share: False
 pocket-share: False
 vkontakte-share: False
 
-disqus-shortname: "yikuta"
+disqus-shortname: ""
 
 syntax-highlight: True
 
