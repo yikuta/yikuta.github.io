@@ -44,7 +44,7 @@ function t(){
 }  
 t(); 
 </code></pre>
-我们可以看到，由于函数作用域的特性，局部变量在整个函数体内都是能访问的，该变量将被变量声明提升到函数体顶部（详情看另一篇<a href="">变量提升</a>），同时变量初始化还在原来的位置。
+我们可以看到，由于函数作用域的特性，局部变量在整个函数体内都是能访问的，该变量将被变量声明提升到函数体顶部（详情看另一篇<a href="/js/2017/04/13/javascript%E7%9A%84%E5%8F%98%E9%87%8F%E6%8F%90%E5%8D%87.html">变量提升</a>），同时变量初始化还在原来的位置。
 
 为啥说javascript没有块级作用域呢，看下面代码：
 <pre><code>
@@ -69,7 +69,7 @@ if(true){
 }  
 console.log(name);  
 </code></pre>
-这时候就是先打印<code>local</code>再打印<code>global</code>。这就是ES6中新特性：局部变量声明<code>let</code>（详情看另一篇<a href="">ES6常用新特性</a> ）。
+这时候就是先打印<code>local</code>再打印<code>global</code>。这就是ES6中新特性：局部变量声明<code>let</code>（详情看另一篇<a href="/es6/2017/03/30/ES6%E5%B8%B8%E7%94%A8%E6%96%B0%E7%89%B9%E6%80%A7.html">ES6常用新特性</a> ）。
 
 ##  变量作用域
 
