@@ -49,7 +49,7 @@ favicon: "/img/favicon.ico" # 网站左上图标
 
 # black-favicon: "/img/black-lab-glass.ico" # 标题左边图标
 
-background-img: "../img/bg-banner.jpg" # banner图
+background-img: "../img/bg-banner_01.jpg" # banner图
 
 ##############################
 # Dynamic Text on the Header #  标题上的动态文本
