@@ -142,11 +142,11 @@ syntax-highlight: True
 # 时间轴各项事件
 events:
   - image: "/img/timeline/2nd.jpg"
-    date: "2016/06 - 2017/06"
-    description: "实习结束后，在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动协同办公的webapp的OA模块开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
+    date: "2017/09 - 至今"
+    description: "在天府三街某公司就职，主要负责该公司前端技术由wex5到vue+cordova的技术转型，以及公司项目的前端开发。"
   - image: "/img/timeline/first.jpg"
-    date: "2015/06 - 2016/06"
-    description: "在成都某家公司进行web前端实习，从此开始了我的前端之路。"
+    date: "2015/12 - 2016/08"
+    description: "在电子科技大学西区科技园中一个公司做web前端开发，主要负责公司一款移动协同办公的webapp的OA模块开发。涉及到有semantic-ui + angular1 + angular-ui-router + ODataAngularResources + cordova.js + less + gulp"
 
 # First image of the Timeline
 
