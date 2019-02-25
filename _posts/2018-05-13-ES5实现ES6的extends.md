@@ -154,7 +154,7 @@ child.sayName(); // my name is Child
 child.sayAge(); // my age is 18
 </code></pre>
 我们完全可以把上述ES6的例子通过<code>babeljs</code>转码成ES5来查看，更严谨的实现。
-<code><pre>
+<pre><code>
 "use strict";
 // 主要是对当前环境支持Symbol和不支持Symbol的typeof处理
 function _typeof(obj) {
